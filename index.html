@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -32,6 +33,23 @@
         <h2>CSS</h2>
         <ul>
           <li>Enter your CSS notes here:</li>
+          <ul>
+            <li>The following shows an example of a CSS rule:</li>
+            <ul>
+              <li>div {color: blue; text-align: justify;}</li>
+            </ul>
+            <li>The "div" is an example of the selector. A selector defines the element or attributes to which the rules or declarations apply</li>
+            <li>Each declaration contains a property and a value. The property is the CSS property we want to apply, and then the value defines what it looks like.</li>
+            <li>A CSS selector with multiple declarations is called a declaration block.</li>
+            <li>The CSS box model shows how margins, borders, padding, and content within an HTML element (see image below)</li>
+            <li>Margins determine how much space is on the outside of an element. It is NOT visible.</li>
+            <li>Padding is often confused with margin but isn't the same. Padding adds space INSIDE the element.</li>
+            <li>Adding padding increases the size of the element because the padding is located INSIDE The element.</li>
+            <li>DRY stands for Do Not Repeat Yourself. A coding principle is to encourage developers to reuse or share pieces of code to reduce the number of lines in code. This reduces the size and complexity of the code.</li>
+            <li>Using a percentage rather than a pixel measurement addresses the percentage of the available width of the webpage.</li>
+            <li><a href="https://htmlcolorcodes.com/">This link</a> will give you the hex code for a color.</li>
+          </ul>
+          <img class="box-model" src="https://github.com/MrAndersenTV/HTML-practice/blob/main/310-box-model.png?raw=true" alt="Picture showing the CSS box model with the margin on the outside, then in order border, padding, then content">
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -47,6 +65,13 @@
                     <li>git checkout -b branch-name: creates a new branch AND switches to it</li>
                     <li>git pull branch-name: fetch and merge any commits from the tracking remote branch</li>
                     <li>git push [alias] [branch]: transmit local branch commits to the remote repository</li>
+                    <li>Here are the steps to add, commit, and push up the code, then open and merge a pull request:</li>
+                    <ol>
+                      <li>To save the current feature to GitHub, in Git Bash or the Terminal (for mac) type [git add-A]. the "-A" stands for "Add" and this stages the changes we made.</li>
+                      <li>To commit the code to our repo, type [git commit -m "added CSS to project". the "-m" stands for "merge" and the area in quotes adds notes to the commit.</li>
+                      <li>We can then type [git pull origin main] to ensure our current branch is up to date before opening a pull request.</li>
+                      <li>To push up all of our changes, enter [git push origin feature/add-css]</li>
+                    </ol>
                   </ul>
               </ul>
           </ul>  
