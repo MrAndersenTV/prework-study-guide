@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -80,6 +81,46 @@
         <h2>JavaScript</h2>
         <ul>
           <li>Enter your JavaScript notes here:</li>
+          <ul>
+            <li>JavaScript adds interactivity to websites.</li>
+            <li>API stands for Application Programming Interfaces</li>
+            <li>Unlike the CSS code to add CSS to the HTML doc, the code to add JavaScript to your html file goes in the "body" element. We will use the "script" opening and closing tags with the "src" attribute linking the script file to your code.</li>
+            <li>In JavaScript (and CSS), the semicolon marks the end of a statement.</li>
+            <li>The following are core features of the language:</li>
+            <ul>
+              <li>Variables: containers that store values. "Let" is used to declare a variable's value. Each variable can have different data types:</li>
+              <ul>
+                <li>String: sequence of text. Enclosed in double or single quote marks.</li>
+                <li>Number: Pretty obvious...but numbers don't have quotes around them.</li>
+                <li>Boolean: True/False value. These words do not need quotes either.</li>
+                <li>Array: A structure that lets you store multiple values in a single reference.</li>
+                <li>Object: Can be anything because everything in JavaScript is an object and can be stored in a variable. the above data types can be considered objects.</li>
+              </ul>
+              <li>Operators: mathematical symbol that produces a result based on two values or variables. Here are some examples of operators:</li>
+              <ul>
+                <li>Addition (+): Adds two numbers together OR combines two strings.</li>
+                <li>Subtraction (-)/Multiplication (*)/Division (/): Do exactly what they do in basic math.</li>
+                <li>Assignment (=): Assigns a value to a variable.</li>
+                <li>Strict equality (===): Tests to see if two values are equal AND of the same data type. It returns a Boolean result.</li>
+                <li>Not (!), Does-not-equal (!==): Returns the logically opposite value of what it tests. It turns a true into a false, etc.</li>
+              </ul>
+              <li>Conditionals are code that test if an expression is true or not. The most common conditional structure is the "if...else" statement.</li>
+              <ul>
+                <li>The expression after the "if" is the test. If the test is true, it runs the first block of code after the "if" expression. If the test is false, it runs the block of code after the "else" expression.</li>
+              </ul>
+              <li>Functions: Allow us to store and package functionality or code that we wish to reuse. This reduces the amount of code we have to repeat.</li>
+              <li>Within functions, there can be a return statement. This statement returns the result variable out of the function so it can be used. This is called varioable scoping.</li>
+              <li>Events: Also called "event handlers." This is where real interactivity comes to a website. The event handler listens for activity in the browser and runs code in response.</li>
+              <li>In order to code an event, you must select an element, then assign the function. The most common event handler function is "addEventListener()".</li>
+              <li>After assigning the function, you pass the name of the event for the code to listen for (for example: "click") and add a functio nto run when the event happens.</li>
+              <ul>
+                <li>For example: document.querySelector("html").addEventListener("click", function() {alert("Ouch! Stop poking me!");});</li>
+                <li>Since the "function ()" doesn't have a name, this is called an anonymous function. We can also write anonymous functions using an arrow function that looks like this: () =></li>
+                <li>The "const" variable keyword is used to lock down what the variable will be when declared. It cannot be reassigned a value later.</li>
+              </ul>  
+              </ul>
+            </ul>
+          </ul>
         </ul>
       </section>
     </main>
@@ -87,5 +128,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
